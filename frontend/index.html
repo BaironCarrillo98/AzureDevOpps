@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="task-input">
+            <h1>Agregar Tarea</h1>
+            <form id="taskForm">
+                <input type="text" id="title" placeholder="Título" required>
+                <textarea id="description" placeholder="Descripción"></textarea>
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+        <div class="task-list">
+            <h1>Tareas</h1>
+            <ul id="tasks"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
